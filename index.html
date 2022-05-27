@@ -1,41 +1,99 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Nguyễn Chí Bảo</title>
-		<style>
-			header{background-color:#95c7c7;height:50px;}
-			section{background-color:#99686d;height:500px;color:white;}
-			footer{background-color:#b595c7;height:50px;}
-		</style>
-	</head>
-	<body>
-      <header>
-			<nav>
-				<a href="trangchu.html">Trang chủ</a>
-                </a>&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="gioithieu.html">Giới thiệu</a>
-                </a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="lienhe.html">Liên hệ</a>
-                </a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://github.com/NguyenChiBa0">
-		<font face="Lato" color="#0040ff">My GitHub</font>
-        </a>&nbsp;&nbsp;&nbsp;&nbsp;
-	            <a href="https://www.facebook.com/profile.php?id=100050016322358">
-		<font face="Lato" color="#0040ff">My Facebook</font>
-      
-                
-	</a>
-			</nav>
-		</header>
-		<section> 
-            <h1><center><font size="+3">ℭ𝔥à𝔬 𝔐ừ𝔫𝔤 Đế𝔫 𝓥ớ𝔦 𝔗𝔯𝔞𝔫𝔤 𝔚𝔢𝔟 ℭủ𝔞 𝔗ô𝔦</font></center></h1>
-			<form>
-				<center><input type="text"></center>
-				<center><button>ᴏᴋ</button></center>
-			</form>
-		</section>
-		<footer>
-			<p>Bản quyền của Chí Bảo 😎</p>
-		</footer>
-	</body>
-</html
+<head>
+	
+    <title>Menu</title>
+    <style type="text/css">
+        body{
+            background: #282923;
+        }
+        section{
+            height:700px;
+            background-image: url('https://nhathauxaydung24h.com/wp-content/uploads/2021/05/background-den-4.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+        }
+        *{
+            text-decoration: none;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            font-family: Arial;
+        }
+        .nav {
+            background-color: black;
+            display: flex;
+            height: 4em;
+            padding-right: 2.5em;
+            line-height: 4em;
+            justify-content: space-between;
+        }
+        .logo {
+            font-size: 2em;
+            padding-left: 2em;
+        }
+        .Menu {
+            dispLay: flex;
+            font-size: 17px;
+            padding-right: 2.5em;
+        }
+        .Menu a:hover {
+            color: #1fa86f;
+            transition: color .2s ease-out;
+        }
+        .menu_link {
+            padding-right: 2.5em;
+            font-size: 17px;
+        }
+        .menu_link a:hover {
+            color: #1fa86f;
+        }
+        .menu_down {
+            background: black;
+            width: 180px;
+            height:10em;
+            line-height: 3em;
+            margin: 0px auto;   
+            position: absolute;
+            top: 60px;
+            right: 70px;
+            display: none;
+        }
+        .menu_down li {
+            text-align: center;
+            padding: 0px;
+        }
+        .menu_down li a:hover {
+            color: #28e370;
+        }
+        .Menu .menu_link:hover .menu_down {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="nav">
+        <img style="width:100px;height:63px;" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/281315590_422837272701886_3074688792320243522_n.png?stp=dst-png_p206x206&_nc_cat=110&ccb=1-7&_nc_sid=aee45a&_nc_ohc=mjH7oZl9O28AX8VoiwV&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKQHbKDo9It3SIe8QH7A5_VEuNrh0fvxFqW4n4zqw90FA&oe=62B54C9E">
+        <ul class="Menu">
+            <li><a href="TrangChu.html">Trang Chủ</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="GioiThieu.html">Giới Thiệu</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="menu_link">
+                <a href="">Liên Hệ</a>
+                <ul class="menu_down">
+                <li><a href="https://www.facebook.com/profile.php?id=100050016322358">Facebook</a></li>
+				
+			<li><a href="https://github.com/NguyenChiBa0">Github</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</header>
+<section>
+</section>
+</html>
